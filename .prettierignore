@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.development
+
+
+dist
+
+# testing reports #
+coverage/*
+test/coverage/*
+
+# swagger doc
+swagger/*
+
+# redis Local
+dump.rdb

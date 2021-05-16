@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@constants/*": ["src/constants/*"],
+      "@decorators/*": ["src/decorators/*"],
+      "@dtos/*": ["src/dtos/*"],
+      "@filters/*": ["src/filters/*"],
+      "@guards/*": ["src/guards/*"],
+      "@interceptors/*": ["src/interceptors/*"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@modules/*": ["src/modules/*"],
+      "@pipes/*": ["src/pipes/*"],
+      "@utils/*": ["src/utils/*"],
+      "@tests/*": ["__tests__/*"]
+    }
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*", "config", "secret", "__tests__/**/*"],
+  "exclude": ["node_modules"]
+}
